@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website</title>
+</head>
+<body>
+    <header>
+        <center><h1>LERN HTML</h1></center>
+        <marquee width="100%" direction="right" height="30px">
+            This is a sample website for lern HTML Tags
+            </marquee>
+            <hr>
+        <nav>
+            <ul>
+              <li><a href="#"><h5>Profile</h5></a></li>
+              <li><a href="#"><h5>About Us</h5></a></li>
+              <li><a href="#"><h5>Logout</h5></a></li>
+            </ul>
+          </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <h2>HTML</h2>
+            <p><dfn><abbr title="Hypertext Markup Language">HTML</abbr>
+            </dfn> is the <i>standard markup language</i> for creating Web pages. HTML describes the structure of a Web page, and elements tell the browser how to display the content. With HTML you can create your own Website.</p>
+            <aside>
+                <h4><mark>HTML Elements</mark></h4>
+                <p>The html element is the root element and it defines the whole HTML document. It has a start tag html and an end tag  /html .</p>
+              </aside>
+            <h3>Features of HTML</h3>
+            <ol>
+                <li>Simple and user-friendly.</li>
+                <li>Semantic Structure.</li>
+                <li>SEO - Search Engine Optimisation.</li>
+                <li>Local Storage & IndexedDB - Client-Side Data Storage.</li>
+                <li>Media Support.</li>
+              </ol>
+          </article>
+
+            <caption><h2>HTML Tags</h2></caption>
+            <table border="1">
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td>Form Tag</td>
+                <td>An HTML <a href="https://www.w3schools.com/html/html_forms.asp">form</a> is used to <b>collect user input</b>.</td>
+            </tr>
+            <tr>
+                <td>Img Tag</td>
+                <td>The HTML <a href="https://www.w3schools.com/html/html_images.asp">img</a> tag is used to embed an image in a web page.</td>
+            </tr>
+            <tr>
+                <td>List Tag</td>
+                <td>HTML <a href="https://www.w3schools.com/html/html_lists.asp">lists</a> allow web developers to group a set of related items in lists.</td>
+            </tr>
+            <tr>
+                <td>BDO Tag</td>
+                <td>
+                    This text will go right-to-left.<br>
+                    <bdo dir="rtl">
+                    This text will go right-to-left.
+                    </bdo>
+                </td>
+            </tr>
+            <tr>
+                <td>blockquote Tag</td>
+                <td>
+                    A section that is quoted from another source<br>Eg:
+                    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                        For 50 years, WWF has been protecting the future of nature.
+                        </blockquote>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Canvas Tag</td>
+                <td>used to draw graphics, on the fly, via scripting
+                    <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+                    
+                    <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "#FF0000";
+                    ctx.fillRect(0, 0, 50, 60);
+                    </script>
+                    </td>
+            </tr>
+            </table>
+
+            <center><h2>A Website Demo</h2>
+
+<img src="https://static.wixstatic.com/media/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg" width="500px" height="500px" alt="website demo">
+<p><cite>The website</cite> Design inspiration, 2023</p>
+<details>
+  <summary>A Website</summary>
+  <p>a set of related web pages located under a single domain name, typically produced by a single person or organization.</p>
+</details>
+<dialog open>This is a website demo</dialog>
+</center><br><br><br>
+
+<h2>Providing Courses are:</h2>
+
+<table border="5">
+  <colgroup>
+    <col span="2">
+    <col>
+  </colgroup>
+  <thead>
+  <tr>
+    <th>Course</th>
+    <th>Duration</th>
+    <th>Fee</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>HTML, CSS</td>
+    <td>3 months</td>
+    <td>$34</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>5 months</td>
+    <td>$49</td>
+  </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="3"><center>course table</center></td>
+    </tr>
+</tfoot>
+</table>
+<br>
+
+<h3>Course Registration Form</h3>
+<div>
+<form action="">
+ <fieldset>
+  <legend>Candidate Form:</legend>
+  <label for="fname">Full Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="phone">Pnone:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <label for="w3review">Address</label>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea><br><br>
+  <label for="image">Photo:</label>
+  <input type="file" id="image" name="image"><br><br>
+  <select name="" id="">
+    <option value="">Select an option</option>
+    <option value="">HTML, CSS</option>
+    <option value="">JavaScript</option>
+  </select><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+</div>
+<hr>
+
+<figure>
+    <img src="https://datavizproject.com/wp-content/uploads/types/Line-Graph.png" alt="graph" height="500px" width="420px">
+    <figcaption>Fig.1 - Data viz project</figcaption>
+  </figure>
+
+</main>
+
+<footer>
+    <p>&copy; created by Adithya P N on 28-02-2023</p>
+  </footer>
+
+</body>
+</html>
