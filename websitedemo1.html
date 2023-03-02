@@ -1,187 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBSITE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/menu-512.png" alt="" class="menu-btn">
+    </nav>
     <header>
-        <h1>LERN HTML</h1>
-        <!-- <marquee width="100%" direction="right" height="30px">
-            This is a sample website for lern HTML Tags
-            </marquee> -->
-            <hr>
-        <nav>
-            <ul>
-              <li><a href="#"><h5>Profile</h5></a></li>
-              <li><a href="#"><h5>About Us</h5></a></li>
-              <li><a href="#"><h5>Logout</h5></a></li>
-            </ul>
-          </nav>
-        <hr>
+      <div class="header-content">
+        <h2>EXPLORE THE COLOURFUL WORLD</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
     </header>
 
-    <main>
-        <article>
-            <h2>HTML</h2>
-            <p><dfn><abbr title="Hypertext Markup Language">HTML</abbr>
-            </dfn> is the <i>standard markup language</i> for creating Web pages. HTML describes the structure of a Web page, and elements tell the browser how to display the content. With HTML you can create your own Website.</p>
-            <aside>
-                <h4><mark>HTML Elements</mark></h4>
-                <p>The html element is the root element and it defines the whole HTML document. It has a start tag html and an end tag  /html .</p>
-              </aside>
-            <h3>Features of HTML</h3>
-            <ol>
-                <li>Simple and user-friendly.</li>
-                <li>Semantic Structure.</li>
-                <li>SEO - Search Engine Optimisation.</li>
-                <li>Local Storage & IndexedDB - Client-Side Data Storage.</li>
-                <li>Media Support.</li>
-              </ol>
-          </article>
+    <!--Events-->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="https://www.shutterstock.com/image-photo/group-four-hikers-backpacks-walks-260nw-1909533559.jpg" alt="">
+          <h4>Everest Camp Trek</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore unde ipsum quos laborum laboriosam, odit, voluptatibus dicta quibusdam magni magnam dolore aperiam fugit? Amet temporibus a tempora. Sunt, impedit nisi.</p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img src="https://www.shutterstock.com/image-photo/group-four-hikers-backpacks-walks-260nw-1909533559.jpg" alt="">
+          <h4>Walking Holidays</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore unde ipsum quos laborum laboriosam, odit, voluptatibus dicta quibusdam magni magnam dolore aperiam fugit? Amet temporibus a tempora. Sunt, impedit nisi.</p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem repellat, non, alias quo earum eaque modi sed accusantium fugit in autem pariatur exercitationem, doloremque natus nobis ad aut sunt vitae.</p>
+      <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
 
-            <caption><h2>HTML Tags</h2></caption>
-            <table border="1">
-            <tr>
-                <th>Tag</th>
-                <th>Name</th>
-            </tr>
-            <tr>
-                <td>Form Tag</td>
-                <td>An HTML <a href="https://www.w3schools.com/html/html_forms.asp">form</a> is used to <b>collect user input</b>.</td>
-            </tr>
-            <tr>
-                <td>Img Tag</td>
-                <td>The HTML <a href="https://www.w3schools.com/html/html_images.asp">img</a> tag is used to embed an image in a web page.</td>
-            </tr>
-            <tr>
-                <td>List Tag</td>
-                <td>HTML <a href="https://www.w3schools.com/html/html_lists.asp">lists</a> allow web developers to group a set of related items in lists.</td>
-            </tr>
-            <tr>
-                <td>BDO Tag</td>
-                <td>
-                    This text will go right-to-left.<br>
-                    <bdo dir="rtl">
-                    This text will go right-to-left.
-                    </bdo>
-                </td>
-            </tr>
-            <tr>
-                <td>blockquote Tag</td>
-                <td>
-                    A section that is quoted from another source<br>Eg:
-                    <blockquote cite="http://www.worldwildlife.org/who/index.html">
-                        For 50 years, WWF has been protecting the future of nature.
-                        </blockquote>
-                </td>
-            </tr>
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+          <div class="line"></div>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto eaque mollitia, vero quas culpa animi impedit asperiores non, porro repellendus perferendis commodi ad nulla doloremque necessitatibus possimus soluta maiores?</P>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="https://www.kosha.co/journal/wp-content/uploads/2022/05/Trekking-Tips-1.jpg" alt="">
+            <img src="https://www.kosha.co/journal/wp-content/uploads/2022/05/Trekking-Tips-1.jpg" alt="">
+            <img src="https://www.kosha.co/journal/wp-content/uploads/2022/05/Trekking-Tips-1.jpg" alt="">
+            <img src="https://www.kosha.co/journal/wp-content/uploads/2022/05/Trekking-Tips-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>Adithya P N | Phone: 91- 7510701619 | Email: adithyapn98@gmail.com</p>
+      <p>Copyright © 2023 Adithya P N</p>
+    </section>
 
-            <tr>
-                <td>Canvas Tag</td>
-                <td>used to draw graphics, on the fly, via scripting
-                    <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
-                    
-                    <script>
-                    var c = document.getElementById("myCanvas");
-                    var ctx = c.getContext("2d");
-                    ctx.fillStyle = "#FF0000";
-                    ctx.fillRect(0, 0, 50, 60);
-                    </script>
-                    </td>
-            </tr>
-            </table>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
 
-            <h2>A Website Demo</h2>
-
-<img src="https://static.wixstatic.com/media/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg" width="500px" height="500px" alt="website demo">
-<p><cite>The website</cite> Design inspiration, 2023</p>
-<details>
-  <summary>A Website</summary>
-  <p>a set of related web pages located under a single domain name, typically produced by a single person or organization.</p>
-</details>
-<dialog open>This is a website demo</dialog>
-<br><br><br>
-
-<h2>Providing Courses are:</h2>
-
-<table border="5">
-  <colgroup>
-    <col span="2">
-    <col>
-  </colgroup>
-  <thead>
-  <tr>
-    <th>Course</th>
-    <th>Duration</th>
-    <th>Fee</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>HTML, CSS</td>
-    <td>3 months</td>
-    <td>$34</td>
-  </tr>
-  <tr>
-    <td>JavaScript</td>
-    <td>5 months</td>
-    <td>$49</td>
-  </tr>
-</tbody>
-<tfoot>
-    <tr>
-        <td colspan="3">course table</td>
-    </tr>
-</tfoot>
-</table>
-<br>
-
-<h3>Course Registration Form</h3>
-<div>
-<form action="">
- <fieldset>
-  <legend>Candidate Form:</legend>
-  <label for="fname">Full Name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="phone">Pnone:</label>
-  <input type="tel" id="phone" name="phone"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password"><br><br>
-  <input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label><br>
-<input type="radio" id="male" name="gender" value="female">
-<label for="female">Female</label><br>
-  <label for="address">Address</label>
-  <textarea id="address" name="address" rows="4" cols="50">
-</textarea><br><br>
-  <label for="image">Photo:</label>
-  <input type="file" id="image" name="image"><br><br>
-  <select name="" id="">
-    <option value="">Select an option</option>
-    <option value="">HTML, CSS</option>
-    <option value="">JavaScript</option>
-  </select><br><br>
-  <input type="submit" value="Submit">
- </fieldset>
-</form>
-</div>
-<hr>
-
-<figure>
-    <img src="https://datavizproject.com/wp-content/uploads/types/Line-Graph.png" alt="graph" height="500px" width="420px">
-    <figcaption>Fig.1 - Data viz project</figcaption>
-  </figure>
-
-</main>
-
-<footer>
-    <p>&copy; created by Adithya P N on 28-02-2023</p>
-  </footer>
-
+      menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+      })
+    </script>
 </body>
 </html>
